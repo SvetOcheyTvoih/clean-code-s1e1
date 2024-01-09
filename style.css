@@ -32,7 +32,7 @@ body {
   margin: 0 auto 0;
 }
 
-button {
+.button {
   outline: none;
   background: none;
   border: 0px;
@@ -43,8 +43,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
+}
+
+li {
+  list-style: none;
 }
 
 /* Heading */
@@ -98,6 +102,7 @@ button:hover {
   display: inline-block;
   flex-grow: 1;
   outline: none;
+  list-style: none;
 }
 
 /* Task list */
@@ -136,13 +141,13 @@ button:hover {
   display: none;
 }
 
-button.delete img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
