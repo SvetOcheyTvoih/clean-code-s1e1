@@ -48,7 +48,7 @@ ul {
 }
 
 li,
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -72,16 +72,15 @@ button:hover {
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
-  color: #333;
-  font-weight: 700;
-  font-size: 15px;
-  border-bottom: 2px solid #333;
-  padding: 30px 0 10px;
-  margin: 0;
-  text-transform: uppercase;
-}
+.title {
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
 
 input[type="text"] {
   margin: 0;
@@ -101,10 +100,10 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-}
+.new-task__title {
+    display: block;
+    margin: 0 0 20px;
+  }
 
 input#new-task {
   width: 318px;
